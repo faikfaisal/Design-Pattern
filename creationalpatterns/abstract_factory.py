@@ -1,6 +1,7 @@
 import unittest
 
-#Abstract Factory
+
+# Abstract Factory
 class PizzaIngredientFactory(object):
     def create_dough(self):
         raise NotImplemented
