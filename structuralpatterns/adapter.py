@@ -3,6 +3,11 @@ import unittest
 '''
 The Adapter Pattern converts the interface of a class into another interface the clients expect.
 Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
+Notes:
+1) When you need to use an existing class and its interface is not the one you need, use an adapter.
+2) An adapter changes an interface into one a client expects
+3) An adapter wraps an object to change its interface
 '''
 
 
